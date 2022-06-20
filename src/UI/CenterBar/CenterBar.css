@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'DanceParty';
+    src: url('/Users/lele/Library/fonts/DanceToday-JRdzM.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-family:"Larsseit";
+    src: url('/Users/lele/Library/fonts/Larsseit-Light.otf  ');
+    font-family:"SK Asya";
+    src:url('/Users/lele/Library/fonts/SKAsya-Regular.ttf');
+    font-family:"FONT-SPRING";
+    src: url('/Users/lele/Library/fonts/Fontspring-DEMO-4a-rotunda-regular.otf');
+    font-family: "Gothic";
+    src:url('/Users/lele/Library/fonts/News Gothic No.2 W01 Thin.ttf')
+}
+.FirstPage{
+    z-index:-1;
+    width:100%;
+    height:880px;
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    background-color:#E0ECDE;
+}
+.Button{
+    border:none;
+    outline:none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width:175px;
+    height:60px;
+    background-color:#6AAB9C;
+    margin-top:250px;
+    margin-left:300px;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Word-button{
+    margin-top:2px;
+    color:white;
+    font-size: 20px;
+    font-family:"monospace",sans-serif;
+    font-weight:1000;
+}
+.Content{
+}
+.FirstOne{
+    position:absolute;
+    color:#68B2A0;
+    font-size:17px;
+    font-family: "monospace",sans-serif;
+    margin-top:-270px;
+    margin-left:-250px;
+    cursor:pointer;
+    letter-spacing: 1.5px;
+}
+.FirstOne:hover{
+    color:#6AAB9C;
+
+}
+.SecondOne{
+    position:absolute;
+    font-family: "FONT-SPRING",sans-serif;
+    font-weight: bold;
+    font-size:50px;
+    margin-left:-253px;
+    margin-top:-240px;
+    letter-spacing: 2px;
+    white-space: pre-line;
+}
+.ThirdOne{
+    letter-spacing: 1px;
+    position:absolute;
+    white-space: pre-line;
+    font-family: "FONT-SPRING",sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    color:grey;
+    margin-left:-175px;
+    margin-top:-40px;
+    
+}
+.line{
+    position:absolute;
+    width:100px;
+    border-bottom:1px solid #6AAB9C;
+    margin-top:800px;
+    margin-left:50px;
+}
+.Social{
+    position:absolute;
+    margin-top:800px;
+    margin-left:150px;
+}
+.Icon{
+
+    margin-left:15px;
+}
+.bckg{
+    position:absolute;
+    margin-left:800px;
+    padding-right:0px;
+    width:880px;
+    height:880px;
+    background-color:white;
+    border-radius: 1230px 0px 0px 1230px;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.Sad-girl{
+    margin-top:300px;
+    margin-left:200px;
+}
+.Sadboy{
+    width:30px;
+    height:50px;
+    margin-bottom:550px;
+    margin-left:150px;
+    transform:rotate(40deg);
+}
+.rainy{
+    position:absolute;
+    width:50px;
+    height:50px;
+    margin-top:500px;
+    margin-left:-500px;
+    transform:rotate(-20deg);
+}
